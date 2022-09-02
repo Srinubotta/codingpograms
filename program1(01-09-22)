@@ -1,0 +1,21 @@
+#include<stdio.h>
+char* oddeven(int i);
+int main()
+{
+	int n;
+	printf("enter a number");
+	scanf("%d",&n);
+	printf("Result :%s",oddeven(n) );
+	return 0;
+}
+char* oddeven(int n) 
+{
+	if(n%2==0)
+	{
+		return "even";
+	}
+	else
+	{
+		return "odd";
+	}
+}
